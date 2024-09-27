@@ -1,22 +1,13 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 body {
   background-image: url('image.png');
   background-repeat: no-repeat;
   background-position-x: right;
-  font-family: 'Arial', sans-serif;
+  background-position-y: bottom;
   background-color: #1a1a1a;
   color: #fff;
-  padding: 0 10%;
-  max-width: 100vw;
-}
-
-header {
-  margin: 15px 0;
+  padding: 3%;
+  background-size: 35%;
+  height: 700px;
 }
 
 .toolbar {
@@ -26,9 +17,7 @@ header {
 }
 
 .logo {
-  font-size: 1.5rem;
   color: #fff;
-  text-decoration: none;
 }
 
 .menu-icon {
@@ -40,43 +29,35 @@ header {
 
 .menu-icon img {
   width: 30px;
-  height: auto;
 }
 
-/* Headline section */
 .headline {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  text-align: left;
-  margin-bottom: 20px;
 }
 
 .headline h1 {
-  font-size: 2.5rem;
+  font-family: Crete Round, Arial, Helvetica, sans-serif;
+  font-size: 56px;
   color: #ff7a00;
-  line-height: 1.2;
-  margin-bottom: 10px;
+  margin-bottom: 7px;
+  margin-top: 100px;
 }
 
 .headline h2 {
   font-size: 1.2rem;
   color: #fff;
-  margin-bottom: 15px;
+  margin-bottom: 3px;
+  margin-top: 3px;
 }
 
 .headline p {
-  font-size: 1rem;
+  font-size: 16px;
+  font-family: poppins, Arial, Helvetica, sans-serif;
   color: #ccc;
-  line-height: 1.5;
-  width: 100%;
-}
-
-.social {
-  display: flex;
-  justify-content: center;
-  margin-top: 20px;
+  margin-top: 5px;
 }
 
 .social-links {
@@ -84,6 +65,7 @@ header {
   justify-content: space-between;
   width: 80%;
   list-style: none;
+  padding-left: 0;
 }
 
 .social-links li img {
