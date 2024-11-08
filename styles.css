@@ -9,10 +9,9 @@ body {
   margin: 0;
 }
 
-header {}
-
 .intro {
   /* height: 590px; */
+
   /* width: 375px; */
   background-image: url('side-photo1.png');
   background-repeat: no-repeat;
@@ -26,9 +25,6 @@ header {}
 
 .toolbar {
   box-sizing: border-box;
-
-
-  /* height: 92px; */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -141,7 +137,6 @@ hr {
   display: flex;
   justify-content: flex-start;
 }
-
 
 #yoga img {
   display: flex;
@@ -595,7 +590,6 @@ footer {
 }
 
 @media (min-width: 768px) {
-
   .toolbar button {
     display: none;
   }
@@ -652,6 +646,10 @@ footer {
     flex-direction: row;
     align-items: center;
     gap: 24px;
+  }
+
+  .form_section form p {
+    width: 455px;
   }
 
   #rw1 p {
@@ -738,7 +736,6 @@ footer {
     line-height: 44px;
     font-size: 32px;
     font-weight: 80;
-
   }
 
   .card-2 {
@@ -753,6 +750,7 @@ footer {
     visibility: hidden;
     position: relative;
   }
+
   .card-3 {
     background-image: url(card-3.png);
   }
@@ -768,6 +766,7 @@ footer {
     font-size: 32px;
     font-weight: 80;
   }
+
   .card-content-4 {
     padding-top: 180px;
   }
@@ -779,24 +778,22 @@ footer {
   .card-content-6 {
     padding-top: 180px;
   }
-  
-  .black-down{
+
+  .black-down {
     width: 1440px;
     align-items: flex-start;
     padding-left: 130px;
     background-image: url(sidephoto-2D.png);
     background-size: 600px 350px;
-
     background-repeat: no-repeat;
     background-position-x: 862.86px;
     background-position-y: 100px;
   }
 
-  .about{
+  .about {
     padding-top: 130px;
     width: 566px;
     background-image: none;
-
   }
 
   /* .about2{
@@ -810,47 +807,44 @@ footer {
     content: "Hey there! I can help you build a product, feature or website. Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hesitate to contact me.";
   } */
 
-  #horizontal-line{
+  #horizontal-line {
     width: 1136px;
   }
 
-  .skills{
+  .skills {
     flex-direction: row;
-    padding: 130px 0px;
+    padding: 130px 0;
     gap: 152px;
     justify-content: flex-start;
     align-items: start;
   }
 
-  .skills ul{
+  .skills ul {
     line-height: 42.7px;
     font-size: 50px;
   }
 
-  .skills ul li{
+  .skills ul li {
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
     text-wrap: nowrap;
   }
 
-  .skill{
+  .skill {
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
   }
 
-  .form_section form{
+  .form_section form {
     display: flex;
     flex-direction: row;
     gap: 24px;
     padding: 130px 130px;
   }
-  .form_section form p{
-    width: 455px;
-  }
 
-  .inputs{
+  .inputs {
     width: 100%;
   }
 }
